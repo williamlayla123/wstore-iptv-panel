@@ -1,0 +1,23 @@
+{
+  "name": "wstore-iptv-panel",
+  "version": "1.0.0",
+  "description": "Painel IPTV WStore - 100% Funcional com M3U/M3U8 Licenciado",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
+    "build": "npm run build --prefix backend && npm run build --prefix frontend",
+    "start": "npm start --prefix backend"
+  },
+  "keywords": [
+    "iptv",
+    "streaming",
+    "wstore",
+    "m3u",
+    "m3u8"
+  ],
+  "author": "WStore",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
